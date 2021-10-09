@@ -1,0 +1,161 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+#navbar{
+	position: relative;
+	left: 5%;
+	width:90%;
+	color:#03586b;
+}
+#navbar a{
+	text-decoration:none;
+	color:#c54344;	
+	letter-spacing: 1px;
+}
+#navbar a:hover{
+	color:#D2042D;
+	background-color: #131212;
+	box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 6px;
+}
+/* homepage active */
+#homepage #navbar #home{
+	background-color: #131212;
+	box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 6px;
+}
+#home-story #navbar #story{
+	background-color: #131212;
+}
+#home-login #navbar #login{
+	background-color: #131212;
+}
+#home-signup #navbar #signup{
+	background-color: #131212;
+}
+#nav-items img{
+	display: inline;
+	width:130px;
+	height:80px;
+}
+#nav-items{
+	width:100%;
+	display: inline-flex;
+	padding-left:15px;
+	font-size:18px;
+	font-family: 'Playfair Display SC', serif;
+	font-weight:700;
+	padding-top:1%;
+}
+
+#home{
+	margin-top: 1%;
+	margin-left:45%;
+	height: 40px;
+	width:100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+}
+#headphones{
+	margin-top: 1%;
+	margin-left:2%;
+	height: 40px;
+	width:150px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+}
+#cart{
+	margin-top: 1%;
+	margin-left:2%;
+	height: 40px;
+	width:100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+}
+
+#login{
+	margin-top: 1%;
+	margin-left:2%;
+	height: 40px;
+	width:100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+}
+
+#signup{
+	margin-top: 1%;
+	margin-left:2%;
+	height: 40px;
+	width:100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+}
+/* content */
+
+.mainpage{
+	color:white;
+	width:40%;
+	height: 70%;
+	position: relative;
+	padding: 3% 2% 4% 0;
+	left:5%;
+	
+}
+.mainpage p{
+    position: relative;
+    top: 50px;
+	font-size:25px;
+	line-height: 1.4;
+	letter-spacing: 0.6px;
+}
+.mainpage h1{
+	font-family: 'Playfair Display SC', serif;
+}
+
+.homeimage{
+	width: 44%;
+	height:70%;
+	position: absolute;
+	left:50%;
+	top:18%;
+	margin-left: 1%;
+}
+.homeimage img{
+	width:100%;
+	height:100%;
+	border-radius: 25px;
+}
+
+#start{
+	margin-top: 2%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    left:30%;
+	color: black;
+	text-decoration: none;
+	width:200px;
+	height: 50px;
+	letter-spacing: 1px;
+	background-color: white;
+	border-radius: 5px;
+	font-family: 'Playfair Display SC', serif;
+}
+#start:hover{
+	background-color: black;
+	color:#D2042D;
+	box-shadow: rgba(255, 255, 255, 0.35) 2px 1px 4px;
+}
